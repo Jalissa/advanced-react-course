@@ -33,6 +33,8 @@
     "babel-preset-stage-2": "^6.24.1",
     "ejs": "^2.5.7",
     "express": "^4.15.4",
+    "lodash.debounce": "^4.0.8",
+    "lodash.pickby": "^4.6.0",
     "path": "^0.12.7",
     "pm2": "^ 2.6.1",
     "react": "^15.6.1",
