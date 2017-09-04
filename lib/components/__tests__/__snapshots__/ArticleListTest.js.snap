@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleList renders correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <ArticleContainer
+        article={
+            Object {
+                "id": "a",
+              }
+        }
+    />
+    <ArticleContainer
+        article={
+            Object {
+                "id": "b",
+              }
+        }
+    />
+</div>,
+  "nodes": Array [
+    <div>
+      <ArticleContainer
+            article={
+                  Object {
+                        "id": "a",
+                      }
+            }
+      />
+      <ArticleContainer
+            article={
+                  Object {
+                        "id": "b",
+                      }
+            }
+      />
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 1,
+      "_context": Object {},
+      "_currentElement": <ArticleList
+        articles={
+                Object {
+                        "a": Object {
+                          "id": "a",
+                        },
+                        "b": Object {
+                          "id": "b",
+                        },
+                      }
+        }
+        store={
+                Object {
+                        "lookupAuthor": [Function],
+                      }
+        }
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": ArticleList {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "articles": Object {
+            "a": Object {
+              "id": "a",
+            },
+            "b": Object {
+              "id": "b",
+            },
+          },
+          "store": Object {
+            "lookupAuthor": [Function],
+          },
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          <ArticleContainer
+                    article={
+                              Object {
+                                        "id": "a",
+                                      }
+                    }
+          />
+          <ArticleContainer
+                    article={
+                              Object {
+                                        "id": "b",
+                                      }
+                    }
+          />
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div>
+          <ArticleContainer
+                    article={
+                              Object {
+                                        "id": "a",
+                                      }
+                    }
+          />
+          <ArticleContainer
+                    article={
+                              Object {
+                                        "id": "b",
+                                      }
+                    }
+          />
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ArticleList
+    articles={
+        Object {
+            "a": Object {
+              "id": "a",
+            },
+            "b": Object {
+              "id": "b",
+            },
+          }
+    }
+    store={
+        Object {
+            "lookupAuthor": [Function],
+          }
+    }
+/>,
+}
+`;
